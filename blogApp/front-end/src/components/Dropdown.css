@@ -1,0 +1,24 @@
+.dropdownMenu{
+    position: absolute;
+    text-align: start;
+    list-style: none;
+}
+
+.dropdownMenu li{
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.dropdownMenu li:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.menu{
+    list-style: none;
+    text-decoration: none;
+}
+
+.menuItem{
+    text-decoration: none;
+}

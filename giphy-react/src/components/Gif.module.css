@@ -1,0 +1,20 @@
+.gif{
+    margin-left: 10%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    grid-column-end: span 2;
+    max-width: 100%;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.gif:hover  {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}

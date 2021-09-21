@@ -1,0 +1,76 @@
+.main{
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.toggleBTn{
+
+    display:block;
+    color:white;
+    height:30px;
+    padding-top: 10px;
+    text-align: center;
+    width:200px;
+    border-radius:20px;
+    margin-top: 50px;
+    background-color:aquamarine;
+}
+
+.toggleBTn:hover{
+    cursor: pointer;
+}
+
+.btnContainer{
+    display: flex;
+    margin-left:30%;
+}
+
+.defaultGif{
+    height: 800px;
+    width:700px;
+
+}
+
+.loginLogo{
+    height:160px;
+    padding-left: 30%;
+    padding-top: 100px;
+
+}
+.leftContainer{
+    width:50%;
+}
+
+
+.leftContainer::after{
+    content: "";
+    opacity: 0.8;
+    background: rgb(26, 31, 41) url("https://media3.giphy.com/media/3o85xzUrA3Gj3QbWZa/giphy.gif") no-repeat;
+    background-size: cover;
+    filter: blur(98px);
+    -webkit-filter: blur(40px);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+}
+
+
+.selectedOperation{
+    background-color: rgb(158, 158, 245);
+
+}
+
+.rightContainer{
+    width:50%;
+    margin-left: 20px;
+
+
+
+}

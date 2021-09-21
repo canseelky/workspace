@@ -1,0 +1,33 @@
+.entryHeader{
+    display:flex;
+    flex-direction:row;
+}
+
+.waterfallImage{
+    height:60%;
+    width:50%;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.homeContainer{
+    display: flex;
+    margin:2% 8% 2% 10% ;;
+    width:80%;
+
+}
+
+.textContainer{
+
+}
+
+.entryTitle{
+    font-weight: bold;
+
+}
+
+.entryContent{
+    font-weight: lighter;
+    line-height: 1.6;
+}

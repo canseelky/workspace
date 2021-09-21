@@ -1,0 +1,22 @@
+.container__main{
+    display: flex;
+    background-color:#070707;
+}
+.title{
+    color:rgb(175, 175, 175);
+    padding-left: 0px;
+    width: 300px;
+    margin-bottom: 2px;
+}
+
+.GifDetail__main{
+    margin-left:5%;
+    margin-right: 5%;
+    height:100%;
+
+}
+.detail__middle{
+    margin-left:5%;
+    margin-top:2%;
+
+}

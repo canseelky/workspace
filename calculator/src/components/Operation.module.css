@@ -1,0 +1,28 @@
+.operation{
+  
+    background-color:rgb(245, 135, 10);
+
+}
+
+.gridContainer {
+    
+
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+  .gridItem {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgb(245, 135, 10);
+    top:0px;
+    margin:10px;
+
+ 
+  }

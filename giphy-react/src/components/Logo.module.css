@@ -1,0 +1,12 @@
+.logo{
+    height:100px;
+    width:500px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top:5%;
+}
+
+.logo:hover{
+    cursor: pointer;
+}

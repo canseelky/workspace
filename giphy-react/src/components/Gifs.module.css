@@ -1,0 +1,29 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    background-color:#070707;
+    padding-right:10%;
+}
+
+.gif_container{
+    display: grid;
+    block-size: 250px;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-rows: masonry;
+    align-tracks: end, start, end, space-between;
+    margin-left: 10%;
+    height: auto;
+}
+
+.txt{
+    color:white;
+    font-weight: bold;
+    margin-left: 5%;
+    width:240px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

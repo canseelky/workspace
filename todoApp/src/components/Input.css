@@ -1,0 +1,65 @@
+.main{
+  
+    height:100px;
+    width:500px;
+    border-radius:2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border:solid 1px;
+    margin-top:20px;
+    border:2px solid black;
+    border-radius:20px;
+    margin-left: 20%;
+    
+    margin-bottom: 20px;
+
+
+}
+input{
+    height:9px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.add__btn{
+   border-radius: 12px;
+   background-color: white;
+   color: black;
+   height: 20px;
+   width:20px;
+
+
+
+}
+
+h7{
+  
+    margin-left: 0px;
+    font-family: 'Trebuchet MS';
+    
+
+
+}
+
+
+.hidden__btn{
+    display: none;
+}
+
+
+#error_txt{
+    color:red;
+    display: inline;
+    padding-left: 0px;
+    margin-top:0px;
+    padding-top: 0px;
+    align-items: center;
+}

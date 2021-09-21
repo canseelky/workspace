@@ -1,0 +1,22 @@
+.tag{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 100px;
+    background-color:rgb(223, 117, 117);
+    height:30px;
+    border-radius:30px;
+    color:white;
+    margin-left: 2%;
+}
+
+.detailBtn{
+    width:10%;
+    color:white;
+    background-color:rgb(249, 110, 91);
+    border-radius:30px;
+    border: none;
+    margin-left: 2%;
+    margin-bottom: 2%;
+
+}

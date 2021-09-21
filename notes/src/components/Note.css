@@ -1,0 +1,22 @@
+.note-container{
+    display: flex;
+    height: 90%;
+}
+
+.header{
+    padding: 10px;
+    display: flex;
+    background-color: rgb(121, 121, 177);
+    padding-right: 90px;
+    margin-bottom: 10px;
+}
+
+.icon__right{
+    padding-left:90px;
+
+}
+
+.icon__cursor{
+    cursor: pointer;
+
+}

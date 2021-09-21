@@ -1,0 +1,46 @@
+
+.headerContainer{
+    margin-top:20px;
+    background-color:rgb(249, 110, 91) ;
+    height:90%;
+    width: 60%;
+    margin-left: 20%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    overflow: hidden;
+
+}
+.headerTitle{
+    padding-left: 20%;
+    font-weight: bold ;
+    color: white
+}
+
+.navActive{
+    background-color: rgb(249, 110, 91) ;
+}
+
+.navLink{
+
+    color:white ;
+    text-decoration: none;
+    display: flex;
+    width: 20%;
+    padding-bottom: 20px;
+    padding-top:20px;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color:#333;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon{
+    color:white;
+}

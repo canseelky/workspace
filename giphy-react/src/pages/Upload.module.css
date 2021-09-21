@@ -1,0 +1,56 @@
+.container{
+    background: linear-gradient(45deg, rgb(97, 87, 255) 0%, rgb(0, 204, 255) 100%);
+    width:80%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    margin-left: 10%;
+
+}
+.titleContainer{
+    display:flex;
+    flex-direction:row;
+
+
+}
+
+.inputContainer{
+    background: linear-gradient(45deg, rgb(147, 140, 241) 0%, rgb(0, 204, 255) 100%);
+    width:90%;
+    height:200px;
+    margin-left:80px;
+    margin-bottom:80px;
+
+}
+.inputBtn{
+    background:linear-gradient(45deg, rgb(97, 87, 255) 0%, rgb(0, 204, 255) 100%);
+    color:"red";
+
+}
+input[type="file"] {
+    display: none;
+}
+
+.labelContainer{
+    margin-top:20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    background:rgb(128,148,252);
+
+
+    border-color: rgb(128,148,252);
+
+    width: 90%;
+}
+
+.gif{
+    color: rgb(137, 133, 187);
+    width:90px;
+    height:60px;
+    border-radius: 20px;
+    background-color: white;
+}

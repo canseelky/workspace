@@ -1,0 +1,20 @@
+.list__item{
+    height: 4px !important;
+    height: 90px !important;
+    background-color: rgb(236, 252, 146);
+    display: flex;
+    padding-left: 0px;
+    cursor: pointer;
+    padding-bottom: 0px;
+}
+
+.title{
+    padding-right: 40%;
+
+}
+
+.align__items{
+    padding-left: 30%;
+
+
+}
